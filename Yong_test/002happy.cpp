@@ -38,6 +38,8 @@ public:
                 }
             }
             n = sum;
+            sum = 0;
+            nums.clear();
         }
     }
 };
