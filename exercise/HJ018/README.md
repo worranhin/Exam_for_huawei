@@ -1,4 +1,4 @@
-[题目地址](https://www.nowcoder.com/practice/de538edd6f7e4bc3a5689723a7435682?tpId=37&tqId=21241&rp=1&ru=/exam/oj/ta&qru=/exam/oj/ta&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26pageSize%3D50%26search%3D%26tpId%3D37%26type%3D37&difficulty=undefined&judgeStatus=undefined&tags=&title=)
+[题目地址](https://www.nowcoder.com/practice/de538edd6f7e4bc3a5689723a7435682)
 
 ----------------------
 
