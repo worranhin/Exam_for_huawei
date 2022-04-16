@@ -1,9 +1,9 @@
 /**
- * ！！！该版本超时！！！
  * 构建一个树结构，递归地分解每一个节点
  */
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 typedef int Type;
 
@@ -80,7 +80,7 @@ int deleteTree(Tree* t) {
 
 int divide(Node* nd) {
     Type x = 2;
-    while (x < nd->data) {
+    while (x < (Type)sqrt(nd->data)+1) {    // 性质：一个数的质因数必小于其开根号
         if (nd->data % x == 0) {
             nd->left = createNode(x);
             nd->right = createNode(nd->data / x);
