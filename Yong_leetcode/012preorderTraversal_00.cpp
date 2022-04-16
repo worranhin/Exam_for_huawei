@@ -1,3 +1,4 @@
+//迭代前中后序遍历二叉树
 #include <iostream>
 #include <string>
 #include <vector>
@@ -31,7 +32,7 @@ public:
         ts.push(root);
         while (!ts.empty())
         {
-            node = ts.top();
+            node = ts.top(); //中节点先出处理
             ts.pop();
             res.push_back(node->val);
             if (node->right != NULL)
@@ -62,7 +63,7 @@ public:
                 cur = t_stack.top();
                 t_stack.pop();
                 res.push_back(cur->val);
-                //一次定会出两个，一个是左一个是中
+                //一次定会出两个，一个是左一个是中(特殊左节点缺失会导致只出右边了)
                 cur = cur->right;
             }
         }
