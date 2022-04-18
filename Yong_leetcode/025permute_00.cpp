@@ -1,4 +1,4 @@
-//集合的全排列（有序）
+//集合(无重复数据)的全排列（有序）
 //思路：每次都从数组中的第一个元素开始遍历，使用过的标记为true，使用一个vector<bool> used的数组进行标记，为true表示此元素被用过，
 #include <iostream>
 #include <map>
