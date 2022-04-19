@@ -43,7 +43,7 @@ public:
 
         while (!qe.empty())
         {
-            //统一后序迭代法
+            //统一后序迭代法,先压进去再比较，一次必须把左右一起压进去了，因为这个节点只有这个点出来
             leftnode = qe.front();
             qe.pop();
             rightnode = qe.front();
